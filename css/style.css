@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 1140px;
+    margin: 50px auto;
+    background-color: #e4eef69f;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.container h1{
+    margin: 50px 0 25px 0;
+}
+
+.container p{
+    margin-bottom: 25px
+}
+
+.btn{
+    width: 150px;
+    height: 30px;
+    background-color: rgb(19, 222, 154);
+    border: none;
+    border-radius: 3px;
+    box-shadow: 1px 1px 15px 6px #cccccced;
+    margin-bottom: 30px;
+}
+
+.box{
+    height: 550px;
+    width: 49%;
+    border: 1px solid rgba(0, 0, 0, 0.296);
+}
+
+.div1{
+    position: absolute;
+    width: 540px;
+    height: 540px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.407);
+}
+
+.div2{
+    position: absolute;
+    width: 480px;
+    height: 480px;
+    border-radius: 50%;
+    background-color: #cccccc23;
+}
+
+.div3{
+    position: absolute;
+    width: 380px;
+    height: 380px;
+    border-radius: 50%;
+    background-color: #95949419;
+}
+
+.div4{
+    position: absolute;
+    width: 260px;
+    height: 260px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.421);
+}
+
+.div5{
+    position: absolute;
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    background-color: rgba(203, 203, 203, 0.314);
+}
+
+.box2{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img1{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid black;
+    background-image: url(../blok.jpeg);
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+}
+
+.img2{
+    right:160px;
+    top: 350px;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: 1px solid black;
+    background-image: url(../bugati.jpg);
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+}
+
+.img3{
+    right: 100px;
+    top: 100px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid black;
+    background-image: url(../fon.jpg);
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+}
+
+.img4{
+    right: 450px;
+    top: 250px;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 1px solid black;
+    background-image: url(../mbappe.jpg);
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+}
+
+.img5{
+    right: 300px;
+    top: 130px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 1px solid black;
+    background-image: url(../hack.jpg.avif);
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+}
